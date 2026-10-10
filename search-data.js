@@ -333,6 +333,18 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Movement of Polish Nationalists Zadruga",
+    url: "tpmovements/zadruga.html",
+    cat: "TP Movements",
+    keywords: [
+      "Movement of Polish Nationalists Zadruga",
+      "Zadruga",
+      "Jan Stachniuk",
+      "Paganism",
+      "Niklot"
+    ]
+  },
+  {
     title: 'Political Circle "Zveno"',
     url: "tpmovements/zveno.html",
     cat: "TP Movements",
