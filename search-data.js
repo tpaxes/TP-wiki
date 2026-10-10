@@ -30,6 +30,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Hlinka's Slovak People's Party",
+    url: "tpmovements/HSLS.html",
+    cat: "TP Movements",
+    keywords: [
+      "Hlinka's Slovak People's Party",
+      "HSLS",
+      "SLS",
+      "Andrej Hlinka",
+      "Jozef Tiso",
+      "Hlinkova slovenská ľudová strana"
+    ]
+  },
+  {
     title: "National Fascist Community",
     url: "tpmovements/national-fascist-community.html",
     cat: "TP Movements",
@@ -53,6 +66,19 @@ window.TP_PAGES = [
       "Óscar Únzaga de la Vega",
       "Bolivia",
       "FSB"
+    ]
+  },
+  {
+    title: "Lithuanian Nationalist Union",
+    url: "tpmovements/lithuanian-nationalist-union.html",
+    cat: "TP Movements",
+    keywords: [
+      "Lithuanian Nationalist Union",
+      "Lietuvių Tautininkų Sąjunga",
+      "LTS",
+      "Antanas Smetona",
+      "Augustinas Voldemaras",
+      "Juozas Tumas-Vaižgantas"
     ]
   },
   {
