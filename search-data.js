@@ -30,6 +30,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Union of Participants in the Estonian War of Independence",
+    url: "tpmovements/VAPS.html",
+    cat: "TP Movements",
+    keywords: [
+      "Union of Participants in the Estonian War of Independence",
+      "VAPS",
+      "vapsid",
+      "Andres Larka",
+      "Artur Sirk",
+      "Eesti Vabadussõjalaste Liit"
+    ]
+  },
+  {
     title: "National Gathering",
     url: "tpmovements/nasjonal-samling.html",
     cat: "TP Movements",
