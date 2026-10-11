@@ -95,6 +95,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "British Union of Fascists",
+    url: "tpmovements/BUF.html",
+    cat: "TP Movements",
+    keywords: [
+      "British Union of Fascists",
+      "BUF",
+      "Oswald Mosley",
+      "Mosleyism",
+      "New Party",
+      "Union Movement"
+    ]
+  },
+  {
     title: "Fatherland Front",
     url: "tpmovements/fatherland-front.html",
     cat: "TP Movements",
