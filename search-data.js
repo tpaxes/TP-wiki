@@ -256,6 +256,21 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Lusitanian Integralism",
+    url: "tpmovements/integralismo-lusitano.html",
+    cat: "TP Movements",
+    keywords: [
+      "Lusitanian Integralism",
+      "Integralismo Lusitano",
+      "José Hipólito Vaz Raposo",
+      "Luís de Almeida Braga",
+      "António de Sousa Sardinha",
+      "Alberto de Monsaraz",
+      "Francisco Rolão Preto",
+      "National Syndicalist Movement"
+    ]
+  },
+  {
     title: "Councils of National-Syndicalist Offensive",
     url: "tpmovements/JONS.html",
     cat: "TP Movements",
