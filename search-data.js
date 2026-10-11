@@ -30,6 +30,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "National Gathering",
+    url: "tpmovements/nasjonal-samling.html",
+    cat: "TP Movements",
+    keywords: [
+      "National Gathering",
+      "Nasjonal Samling",
+      "Vidkun Quisling",
+      "Quisling",
+      "Norway",
+      "Nordisk Folkereisning"
+    ]
+  },
+  {
     title: "Hlinka's Slovak People's Party",
     url: "tpmovements/HSLS.html",
     cat: "TP Movements",
