@@ -307,6 +307,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Japan Socialist Party",
+    url: "tpmovements/japan-socialist-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "Japan Socialist Party",
+      "日本社会党",
+      "JSP",
+      "Asanuma",
+      "Inejirō Asanuma",
+      "Tetsu Katayama",
+      "Right Socialist Party of Japan"
+    ]
+  },
+  {
     title: "Spanish Phalanx",
     url: "tpmovements/falangaesp.html",
     cat: "TP Movements",
