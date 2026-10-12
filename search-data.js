@@ -201,6 +201,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "German Social Union",
+    url: "tpmovements/german-social-union.html",
+    cat: "TP Movements",
+    keywords: [
+      "German Social Union",
+      "Deutsch-Soziale Union",
+      "Otto Strasser",
+      "Strasserism",
+      "Black Front",
+      "DSU"
+    ]
+  },
+  {
     title: "National Radical Camp 'ABC'",
     url: "tpmovements/onr-abc.html",
     cat: "TP Movements",
