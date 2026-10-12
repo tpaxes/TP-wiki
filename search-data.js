@@ -30,6 +30,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "French Action",
+    url: "tpmovements/action-francaise.html",
+    cat: "TP Movements",
+    keywords: [
+      "French Action",
+      "Action Française",
+      "Charles Maurras",
+      "Maurice Pujo",
+      "Henri Vaugeois",
+      "George de Villebois-Mareuil",
+      "Maurrassisme"
+    ]
+  },
+  {
     title: "National Party",
     url: "tpmovements/national-party.html",
     cat: "TP Movements",
