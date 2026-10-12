@@ -95,6 +95,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Kataeb Party - Lebanese Social Democratic Party",
+    url: "tpmovements/kataeb.html",
+    cat: "TP Movements",
+    keywords: [
+      "Kataeb Party",
+      "Lebanese Phalanx Party",
+      "Pinetree",
+      "Pierre Gemayel",
+      "Lebanon",
+      "Lebanese Social Democratic Party",
+      "حزب الكتائب اللبنانية - الحزب الديمقراطي الاجتماعي اللبناني"
+    ]
+  },
+  {
     title: "Bolivian Socialist Falange",
     url: "tpmovements/falange-socialista-boliviana.html",
     cat: "TP Movements",
