@@ -253,6 +253,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Socialist Party of France - Jean Jaurès Union",
+    url: "tpmovements/jean-jaurès-union.html",
+    cat: "TP Movements",
+    keywords: [
+      "Socialist Party of France - Jean Jaurès Union",
+      "Jean Jaurès",
+      "Marcel Déat",
+      "Paul Ramadier",
+      "Adrien Marquet",
+      "Neosocialism"
+    ]
+  },
+  {
     title: "Iron Guard",
     url: "tpmovements/iron-guard.html",
     cat: "TP Movements",
