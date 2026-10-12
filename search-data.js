@@ -337,6 +337,18 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Fatherland League",
+    url: "tpmovements/fatherland-league.html",
+    cat: "TP Movements",
+    keywords: [
+      "Fatherland League",
+      "Fedrelandslaget",
+      "Joakim Lehmkuhl",
+      "Fridtjof Nansen",
+      "Christian Michelsen"
+    ]
+  },
+  {
     title: "Independent Spanish Phalanx",
     url: "tpmovements/independent-spanish-phalanx.html",
     cat: "TP Movements",
@@ -438,6 +450,20 @@ window.TP_PAGES = [
       "Protestant",
       "Zambia",
       "Kenneth Kaunda"
+    ]
+  },
+  {
+    title: "Arrow Cross Party - Hungarist Movement",
+    url: "tpmovements/hungarist-movement.html",
+    cat: "TP Movements",
+    keywords: [
+      "Arrow Cross Party",
+      "Hungarist Movement",
+      "Ferenc Szálasi",
+      "Nyilaskeresztes Párt",
+      "Hungarista Mozgalom",
+      "Szalasi",
+      "Hungarism"
     ]
   },
   {
