@@ -30,6 +30,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "National Party",
+    url: "tpmovements/national-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "National Party",
+      "Stronnictwo Narodowe",
+      "Endencja",
+      "Obóz Wielkiej Polski",
+      "Roman Dmowski",
+      "Tadeusz Bielecki"
+    ]
+  },
+  {
     title: "Union of Participants in the Estonian War of Independence",
     url: "tpmovements/VAPS.html",
     cat: "TP Movements",
