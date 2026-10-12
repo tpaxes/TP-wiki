@@ -533,6 +533,17 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Union for the Defense of Tradesmen and Artisans",
+    url: "tpmovements/UDCA.html",
+    cat: "TP Movements",
+    keywords: [
+      "Union for the Defense of Tradesmen and Artisans",
+      "Union de Défense des Commerçants et Artisans",
+      "Pierre Poujade",
+      "Poujadism"
+    ]
+  },
+  {
     title: "Architects of the Resurrection",
     url: "tpmovements/architects-of-the-resurrection.html",
     cat: "TP Movements",
