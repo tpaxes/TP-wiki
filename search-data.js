@@ -529,6 +529,18 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Self-Defence of the Republic of Poland",
+    url: "tpmovements/samoobrona.html",
+    cat: "TP Movements",
+    keywords: [
+      "Self-Defence of the Republic of Poland",
+      "Samoobrona Rzeczpospolitej Polskiej",
+      "SRP",
+      "Andrzej Lepper",
+      "Lepper"
+    ]
+  },
+  {
     title: 'Political Circle "Zveno"',
     url: "tpmovements/zveno.html",
     cat: "TP Movements",
