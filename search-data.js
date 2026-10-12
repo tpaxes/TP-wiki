@@ -337,6 +337,18 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Independent Spanish Phalanx",
+    url: "tpmovements/independent-spanish-phalanx.html",
+    cat: "TP Movements",
+    keywords: [
+      "Independent Spanish Phalanx",
+      "Falange Española Independiente",
+      "FEI",
+      "Sigfredo Hillers de Luque",
+      "Norberto Pedro Pico Sanabria"
+    ]
+  },
+  {
     title: "The National Legion",
     url: "tpmovements/DNL.html",
     cat: "TP Movements",
@@ -371,6 +383,19 @@ window.TP_PAGES = [
       "Józef Grałła",
       "Narodowo Socjalistyczna Partia Robotnicza",
       "NatSoc"
+    ]
+  },
+  {
+    title: "Ustashe - Croatian Revolutionary Movement",
+    url: "tpmovements/ustase.html",
+    cat: "TP Movements",
+    keywords: [
+      "Ustashe - Croatian Revolutionary Movement",
+      "Ustaša – Hrvatski Revolucionarni Pokret",
+      "Ustase",
+      "Ustasa",
+      "Croatian Socialism",
+      "Ante Pavelić"
     ]
   },
   {
