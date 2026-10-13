@@ -30,6 +30,18 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Carlist Party of Euskal Herria",
+    url: "tpmovements/euskadi-carlism.html",
+    cat: "TP Movements",
+    keywords: [
+      "Carlist Party of Euskal Herria",
+      "Euskalherriko Karlista Alderdia",
+      "EKA",
+      "Carlos Hugo, Duke of Parma",
+      "Basque Federalism"
+    ]
+  },
+  {
     title: "French Action",
     url: "tpmovements/action-francaise.html",
     cat: "TP Movements",
