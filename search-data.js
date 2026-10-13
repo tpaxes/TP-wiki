@@ -480,6 +480,17 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Carlist Party",
+    url: "tpmovements/carlist-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "Carlist Party",
+      "Partido Carlista",
+      "Carlos Hugo, Duke of Parma",
+      "Traditionalist Communion"
+    ]
+  },
+  {
     title: "United National Independence Party",
     url: "tpmovements/UNIP.html",
     cat: "TP Movements",
