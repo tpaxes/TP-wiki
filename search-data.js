@@ -603,6 +603,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Czech National Social Party",
+    url: "tpmovements/czech-national-social-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "Czech National Social Party",
+      "Česká Strana Národně Sociální",
+      "ČSNS",
+      "CSNS",
+      "Josef Klečák",
+      "Alois Simonides",
+      "Edvard Beneš"
+    ]
+  },
+  {
     title: 'Political Circle "Zveno"',
     url: "tpmovements/zveno.html",
     cat: "TP Movements",
