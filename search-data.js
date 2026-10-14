@@ -240,6 +240,19 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "Brazilian Labour Party",
+    url: "tpmovements/brazilian-labour-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "Brazilian Labour Party",
+      "Partido Trabalhista Brasileiro",
+      "PTB",
+      "Getúlio Vargas",
+      "Getulism",
+      "Democratic Labour Party"
+    ]
+  },
+  {
     title: "National Radical Camp 'ABC'",
     url: "tpmovements/onr-abc.html",
     cat: "TP Movements",
