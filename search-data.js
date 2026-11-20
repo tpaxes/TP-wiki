@@ -30,6 +30,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "All-Russian Fascist Organization",
+    url: "tpmovements/all-russian-fascist-organization.html",
+    cat: "TP Movements",
+    keywords: [
+      "All-Russian Fascist Organization",
+      "Всероссийская Фашистская Организация",
+      "All-Russian National Revolutionary Party",
+      "Всероссийская Национал-Революционная Партия",
+      "Donat Yosifovich-Kunle",
+      "Anastasy Vonsiatsky",
+      "VFO"
+    ]
+  },
+  {
     title: "Carlist Party of Euskal Herria",
     url: "tpmovements/euskadi-carlism.html",
     cat: "TP Movements",
