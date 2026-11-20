@@ -30,6 +30,17 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "4th of August Party",
+    url: "tpmovements/4th-of-august-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "4th of August Party",
+      "Κόμμα 4ης Αυγούστου",
+      "Konstantinos Plevris",
+      "Metaxism"
+    ]
+  },
+  {
     title: "All-Russian Fascist Organization",
     url: "tpmovements/all-russian-fascist-organization.html",
     cat: "TP Movements",
