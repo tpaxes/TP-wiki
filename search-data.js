@@ -42,6 +42,20 @@ window.TP_PAGES = [
     ]
   },
   {
+    title: "All-Russian Fascist Party",
+    url: "tpmovements/all-russian-fascist-party.html",
+    cat: "TP Movements",
+    keywords: [
+      "All-Russian Fascist Party",
+      "Russian Fascist Union",
+      "Всероссийская Фашистская Партия",
+      "Российский Фашистский Союз",
+      "VFP",
+      "Nikolai Nikiforov",
+      "Konstantin Rodzaevsky"
+    ]
+  },
+  {
     title: "French Action",
     url: "tpmovements/action-francaise.html",
     cat: "TP Movements",
