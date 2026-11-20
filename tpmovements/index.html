@@ -407,14 +407,14 @@
       text-decoration: none;
     }
     .mov-list a:visited { color: var(--text); }
-.mov-list img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  flex-shrink: 0;
-  border-radius: 3px;
-  background: transparent;
-}
+    .mov-list img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      flex-shrink: 0;
+      border-radius: 3px;
+      background: transparent;
+    }
     .mov-list .mov-name {
       font-weight: 500;
       font-size: 1rem;
@@ -672,6 +672,27 @@
         return /[A-Z]/.test(c) ? c : "#";
       }
 
+      // Better sorting for numbers (e.g. "4th of August Party")
+      function compareTitles(a, b) {
+        const keyA = sortKey(a.title);
+        const keyB = sortKey(b.title);
+
+        const numA = keyA.match(/^(\d+)/);
+        const numB = keyB.match(/^(\d+)/);
+
+        // Both start with a number → sort numerically
+        if (numA && numB) {
+          const diff = parseInt(numA[1], 10) - parseInt(numB[1], 10);
+          if (diff !== 0) return diff;
+        }
+
+        // One starts with a number → numbers go after letters
+        if (numA && !numB) return 1;
+        if (!numA && numB) return -1;
+
+        return keyA.localeCompare(keyB);
+      }
+
       async function listHtmlFiles() {
         const url = "https://api.github.com/repos/" + REPO + "/contents/" + FOLDER;
         const res = await fetch(url);
@@ -707,9 +728,7 @@
       }
 
       function render(items) {
-        items.sort(function (a, b) {
-          return sortKey(a.title).localeCompare(sortKey(b.title));
-        });
+        items.sort(compareTitles);
 
         const byLetter = {};
         LETTERS.forEach(function (L) { byLetter[L] = []; });
@@ -721,14 +740,20 @@
           byLetter[L].push(item);
         });
 
+        // Navigation: A–Z then # at the end
         navEl.innerHTML = LETTERS.map(function (L) {
           if (byLetter[L] && byLetter[L].length) {
             return '<a href="#' + L + '">' + L + "</a>";
           }
           return '<a class="dim">' + L + "</a>";
-        }).join("");
+        }).join("") + (
+          byLetter["#"] && byLetter["#"].length
+            ? '<a href="#num">#</a>'
+            : '<a class="dim">#</a>'
+        );
 
-        rootEl.innerHTML = LETTERS.filter(function (L) {
+        // Content blocks: A–Z first
+        const letterBlocks = LETTERS.filter(function (L) {
           return byLetter[L] && byLetter[L].length;
         }).map(function (L) {
           const rows = byLetter[L].map(function (item) {
@@ -750,6 +775,28 @@
           );
         }).join("");
 
+        // Numbers / symbols section (after Z)
+        let numBlock = "";
+        if (byLetter["#"] && byLetter["#"].length) {
+          const rows = byLetter["#"].map(function (item) {
+            const img = item.logo
+              ? '<img src="' + item.logo + '" alt="">'
+              : '<img alt="" style="opacity:0.25">';
+            return (
+              "<li><a href=\"" + item.file + "\">" +
+                img +
+                '<span class="mov-name">' + item.title + "</span>" +
+              "</a></li>"
+            );
+          }).join("");
+          numBlock =
+            '<div class="letter-block" id="num">' +
+              '<div class="letter-heading">#</div>' +
+              '<ul class="mov-list">' + rows + "</ul>" +
+            "</div>";
+        }
+
+        rootEl.innerHTML = letterBlocks + numBlock;
         statusEl.textContent = items.length + " movements";
       }
 
